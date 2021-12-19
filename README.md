@@ -3,7 +3,7 @@
 ## How to run the solution
 
 Run AlbumPrinter.sln with Visual Studio.  
-Set AlbumPrinter.web as startup project.  
+Set AlbumPrinter.Web as startup project.  
 Start.
 
 ## APIs
