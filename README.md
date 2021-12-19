@@ -4,8 +4,8 @@
 
 * GET api/orders/{orderID}
 
-* POST api/orders
-Example body:
+* POST api/orders  
+Example request body:
 ```
 {
     "OrderItems": [
@@ -32,7 +32,8 @@ Example body:
     ]
 }
 ```
-* Both requests return Order model as the response. Example response:
+* Both requests return Order model as the response.  
+Example response:
 ```
 {
     "OrderID": "91740d8a-d66d-4a3c-bfcf-92393a2e9d8a",
@@ -62,7 +63,7 @@ Example body:
 }
 ```
 ## Assumption
-OrderItems that have the same `ProductType` are not merged. For example, if the `Order` below is sent:
+OrderItems that have the same `ProductType` are not merged by the API. For example, if the `Order` below is sent:
 ```
 {
     "OrderItems": [
