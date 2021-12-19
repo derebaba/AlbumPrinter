@@ -23,8 +23,6 @@ namespace AlbumPrinter.Infrastructure.Persistence
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
             modelBuilder.Entity<Order>().HasMany(o => o.OrderItems);
-
-            //modelBuilder.Entity<OrderItem>().HasKey(oi => new { oi.OrderID, ProductType = (string)oi.ProductType });
         }
     }
 }

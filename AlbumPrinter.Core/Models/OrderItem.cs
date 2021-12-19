@@ -23,7 +23,7 @@ namespace AlbumPrinter.Core.Models
         [JsonIgnore]
         public Guid OrderID { get; set; }
 
-        //[JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(StringEnumConverter))]
         public abstract ProductType ProductType { get; }
 
         [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1")]
