@@ -1,5 +1,11 @@
 # Albelli .NET Software Engineer Technical Assignment
 
+## How to run the project
+
+Run AlbumPrinter.sln with Visual Studio.  
+Set AlbumPrinter.web as startup project.
+Start.
+
 ## APIs
 
 * GET api/orders/{orderID}
