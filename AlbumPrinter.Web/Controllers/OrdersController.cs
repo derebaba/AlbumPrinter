@@ -1,7 +1,6 @@
 ﻿using AlbumPrinter.Core.Interfaces;
 using AlbumPrinter.Core.Models;
 using AlbumPrinter.Infrastructure.Persistence;
-using AlbumPrinter.Web.Models;
 using Effort;
 using System;
 using System.Collections.Generic;
