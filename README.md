@@ -1,4 +1,4 @@
-# Albelli .NET Software Engineer Technical Assignment
+# AlbumPrinter
 
 ## How to run the solution
 
